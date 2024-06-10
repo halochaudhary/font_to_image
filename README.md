@@ -27,7 +27,7 @@ To use this script, follow these steps:
 2. **Run the Script:**
    Execute the script with the font file as an argument:
    ```sh
-   python export_all_glyphs.py <font_file>
+   python3 font_to image.py <font_file>
    ```
 
    Replace `<font_file>` with the path to your font file.
@@ -35,7 +35,7 @@ To use this script, follow these steps:
 ### Example
 
 ```sh
-python export_all_glyphs.py /path/to/font.ttf
+python font_to_image.py /path/to/font.ttf
 ```
 
 ### Script 2: Export Selected Glyphs to PNG | font_to_image_selected_glyphs.py

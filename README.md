@@ -3,7 +3,7 @@
 
 This repository contains two Python scripts that use FontForge to export glyphs from a font file into PNG images. One script exports all glyphs, while the other exports only a selected range of glyphs. This can be useful for various purposes such as creating font previews, generating assets for graphic design, or simply inspecting individual glyphs in detail.
 
-### Script 1: Export All Glyphs to PNG
+### Script 1: Export All Glyphs to PNG | font_to_image.py
 
 This script exports all glyphs from a specified font file.
 
@@ -38,7 +38,7 @@ To use this script, follow these steps:
 python export_all_glyphs.py /path/to/font.ttf
 ```
 
-### Script 2: Export Selected Glyphs to PNG
+### Script 2: Export Selected Glyphs to PNG | font_to_image_selected_glyphs.py
 
 This script exports only the selected glyphs (digits 0-9 and uppercase letters A-Z) from a specified font file.
 
@@ -63,7 +63,7 @@ To use this script, follow these steps:
 2. **Run the Script:**
    Execute the script with the font file as an argument:
    ```sh
-   python export_selected_glyphs.py <font_file>
+   python font_to_image.py <font_file>
    ```
 
    Replace `<font_file>` with the path to your font file.
@@ -71,7 +71,7 @@ To use this script, follow these steps:
 ### Example
 
 ```sh
-python export_selected_glyphs.py /path/to/font.ttf
+python font_to_image_selected_glyphs.py /path/to/font.ttf
 ```
 
 ### Notes
